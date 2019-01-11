@@ -13,10 +13,10 @@ function  [h_old,E,epsilon,iter_needed]=DUE_solver(time_horizon,...
 % This function performs the fixed-point algorithm for the simultaneous
 % route-and-departure-time choice dynamic user equilibrium model
 %
-% DOCUMENTATION: 
-%        Han,K., Eve,G., Friesz,T.L. (2018) Computing dynamic user equilibria on large-scale
-%        networks: From theory to software implementation.
-%        arXiv:1810.00777. URL: https://arxiv.org/abs/1810.00777
+% DOCUMENTATION AND CITE AS: 
+%        Han,K., Eve,G., Friesz,T.L. (2019) Computing Dynamic User Equilibria on
+%        Large-Scale Networks with Software Implementation. Networks and Spatial
+%        Economics, https://doi.org/10.1007/s11067-018-9433-y
 % 
 % *************************
 % Developed by Ke Han, 2018
