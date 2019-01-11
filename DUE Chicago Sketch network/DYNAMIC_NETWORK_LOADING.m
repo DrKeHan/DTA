@@ -9,10 +9,10 @@ function delay=DYNAMIC_NETWORK_LOADING(pathDepartures, nt, dt, processedDataFile
 % - Sources and sinks represented at OD nodes by means of virtual link
 % - All units in SI i.e. metres, seconds and vehicles
 %
-% DOCUMENTATION: 
-%        Han,K., Eve,G., Friesz,T.L. (2018) Computing dynamic user equilibria on large-scale
-%        networks: From theory to software implementation.
-%        arXiv:1810.00777. URL: https://arxiv.org/abs/1810.00777
+% DOCUMENTATION AND CITE AS: 
+%        Han,K., Eve,G., Friesz,T.L. (2019) Computing Dynamic User Equilibria on
+%        Large-Scale Networks with Software Implementation. Networks and Spatial
+%        Economics, https://doi.org/10.1007/s11067-018-9433-y
 %
 % *****************************************
 % Developed by Gabriel Eve and Ke Han, 2018
@@ -53,7 +53,7 @@ Nup = zeros(link.count + source.count + sink.count, nt);    % [veh] cumulative s
 Ndn = zeros(link.count + source.count, nt);                 % [veh] cumulative sum of downstream vehicles
 Qin = Nup;                                                  % [veh/s] upstream flow
 Qout = Ndn;                                                 % [veh/s] downstream flow
-Qin_pathLinks = zeros(numTotalPathLinks, nt);               % [veh/s] upstream flow of paths % £££
+Qin_pathLinks = zeros(numTotalPathLinks, nt);               % [veh/s] upstream flow of paths % Â£Â£Â£
 N_source = zeros(source.count, 1);                          % [veh] number of veh queueing at source at tn
 
 
