@@ -2,4 +2,4 @@
 This repository documents a MATLAB package for computing large-scale Dynamic User Equilibrium models. 
 
 # Documentation
-Ke Han, Gabriel Eve, Terry L. Friesz (2018). Computing dynamic user equilibria on large-scale networks: From theory to software implementation. arXiv:1810.00777. URL: https://arxiv.org/abs/1810.00777
+Han, K, Eve, G, Friesz, TL, 2019. Computing dynamic user equilibria on large-scale networks with software implementation. Networks and Spatial Economics, open-access URL: https://doi.org/10.1007/s11067-018-9433-y.
